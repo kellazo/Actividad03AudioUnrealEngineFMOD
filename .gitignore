@@ -78,3 +78,7 @@ DerivedDataCache/*
 *.log
 *.txt
 /Logs/
+
+# Permitir los archivos necesarios de FMOD
+!Plugins/FMODStudio/Binaries/Win64/*.dll
+!Plugins/FMODStudio/Binaries/Win64/*.lib
