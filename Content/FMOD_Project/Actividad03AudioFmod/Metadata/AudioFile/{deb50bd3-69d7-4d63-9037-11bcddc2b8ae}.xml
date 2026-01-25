@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{deb50bd3-69d7-4d63-9037-11bcddc2b8ae}">
+		<property name="assetPath">
+			<value>Sounds/FootSteps/WaterReaper/FS_water-006.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.55424036281179134</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{ad7dcb2f-e2fa-43a5-84d9-1aba983b5d3c}</destination>
+		</relationship>
+	</object>
+</objects>

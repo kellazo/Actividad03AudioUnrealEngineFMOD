@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{d4a6299c-8178-42e4-a4fc-c13fd9334164}">
+		<property name="assetPath">
+			<value>MusicReaper/MusicHorror02.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>59.546031746031744</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{ad7dcb2f-e2fa-43a5-84d9-1aba983b5d3c}</destination>
+		</relationship>
+	</object>
+</objects>

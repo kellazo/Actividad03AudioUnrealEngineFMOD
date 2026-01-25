@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{c5037b98-b3da-4cc6-a5d9-c999b869a7cb}">
+		<property name="assetPath">
+			<value>Sounds/Wind/sfx_wind_low_rumble_rr03.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>11</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{ad7dcb2f-e2fa-43a5-84d9-1aba983b5d3c}</destination>
+		</relationship>
+	</object>
+</objects>

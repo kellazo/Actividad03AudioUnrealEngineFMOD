@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{8da1f517-1c18-47e6-b6d4-fd01570f41fd}">
+		<property name="assetPath">
+			<value>Sounds/FootSteps/Mud/footsteps_mud_01.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>78.053333333333327</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{ad7dcb2f-e2fa-43a5-84d9-1aba983b5d3c}</destination>
+		</relationship>
+	</object>
+</objects>
