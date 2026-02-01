@@ -78,7 +78,7 @@ Este método fuerza al motor a reconocer los archivos como "nuevos" y regenerar 
 ### Opción B: Reinstalación Limpia (Recomendada)
 Si la opción A no funciona, descarga e instala manualmente los plugins para asegurar la integridad de los archivos.
 
-1.  Descarga el plugin oficial de FMOD.
+1.  Descarga el plugin oficial de FMOD. https://www.fmod.com/download#fmodforunreal
     * **Versión exacta:** `2.03.11`
     * **Motor:** Unreal Engine 5.5
     * **Plataforma:** Windows 64-bit
