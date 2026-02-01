@@ -48,6 +48,46 @@ El proyecto se centra en la creación de un paisaje sonoro reactivo en un entorn
 - Eventos sonoros disparados por *Triggers* o acciones específicas del jugador dentro del nivel.
 
 ---
+## 🚀 Instrucciones de Instalación
+## 📋 Requisitos Previos
+
+* **Unreal Engine:** Versión 5.5
+* **Plataforma:** Windows 64-bit
+* **FMOD:** Integración requerida (ver instrucciones abajo).
+
+## ⚠️ Instalación y Configuración de FMOD (Crítico)
+
+Aunque el repositorio incluye las carpetas de los plugins de FMOD, es **necesario realizar una acción manual** para asegurar que los binarios se generen correctamente y el proyecto compile sin errores.
+
+Las carpetas afectadas dentro de `Plugins/` son:
+* `FMODStudio`
+* `FMODStudioNiagara`
+* `FMODStudioOpenXR`
+
+Para solucionar esto, por favor elige **una** de las siguientes dos opciones:
+
+### Opción A: Método Rápido (Cortar y Pegar)
+Este método fuerza al motor a reconocer los archivos como "nuevos" y regenerar los binarios necesarios.
+
+1.  Navega a la carpeta `Plugins` dentro del directorio del proyecto.
+2.  Selecciona las tres carpetas mencionadas arriba (`FMODStudio`, `FMODStudioNiagara`, `FMODStudioOpenXR`).
+3.  **Córtalas** (Ctrl+X) y pégalas temporalmente en tu Escritorio.
+4.  Vuelve a **cortarlas** del Escritorio y **pégalas de nuevo** dentro de la carpeta `Plugins` del proyecto.
+5.  Ejecuta el archivo `.uproject`.
+
+### Opción B: Reinstalación Limpia (Recomendada)
+Si la opción A no funciona, descarga e instala manualmente los plugins para asegurar la integridad de los archivos.
+
+1.  Descarga el plugin oficial de FMOD.
+    * **Versión exacta:** `2.03.11`
+    * **Motor:** Unreal Engine 5.5
+    * **Plataforma:** Windows 64-bit
+    * **Nombre del instalador:** `fmodstudio20311ue5.5win64`
+2.  Descomprime el plugin.
+3.  Copia las carpetas resultantes y **sobrescribe (machaca)** las carpetas existentes en el directorio `Plugins` de este proyecto.
+4.  Al abrir el proyecto, permite que se recompilen los módulos si se solicita.
+
+> **Nota:** Este paso es fundamental para que se generen los `.dll` y binarios correctos vinculados a tu instalación local de Unreal Engine.
 
 ## 📂 Estructura del Proyecto
 
@@ -61,12 +101,4 @@ Actividad03AudioUnrealEngineFMOD/
 ├── Content/FMOD_Project/   # << PROYECTO DE FMOD STUDIO AQUÍ (Archivos fuente .fspro)
 └── Actividad03.uproject    # Archivo principal del proyecto
 
-## 🚀 Instrucciones de Instalación
-- Clonar el repositorio
-## Requisitos Previos:
-- Tener instalado Unreal Engine 5.5.4.
-- Tener instalado FMOD Studio 2.03.11
-- 
 
-
-(Opcional pero recomendado) Tener instalado FMOD Studio 2.03.11 si deseas inspeccionar el proyecto de audio original.
