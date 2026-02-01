@@ -24,8 +24,6 @@ Este repositorio contiene la entrega de la **Actividad de Laboratorio 03** para 
 
 Puedes ver el funcionamiento del sistema de audio y la explicación técnica de la implementación en el siguiente video:
 
-[![Ver Video en YouTube](https://img.youtube.com/vi/G3JsEv-6w0g/maxresdefault.jpg)](https://www.youtube.com/watch?v=G3JsEv-6w0g)
-
 > **[Haz clic aquí para ver el video completo en YouTube](https://www.youtube.com/watch?v=G3JsEv-6w0g)**
 
 ---
@@ -58,7 +56,17 @@ Para facilitar la corrección, el proyecto sigue la siguiente estructura de carp
 ```text
 Actividad03AudioUnrealEngineFMOD/
 ├── Content/                # Contenido de Unreal Engine
-├── FMOD/                   # Archivos generados por el plugin
-├── FMOD_Project/           # << PROYECTO DE FMOD STUDIO AQUÍ (Archivos fuente .fspro)
-├── Source/                 # Código fuente (si aplica)
+├── Plugins/                # Contenido del plugin FMOD para la integración con UNREAL
+├── Content/FMOD/           # Archivos generados por el plugin
+├── Content/FMOD_Project/   # << PROYECTO DE FMOD STUDIO AQUÍ (Archivos fuente .fspro)
 └── Actividad03.uproject    # Archivo principal del proyecto
+
+## 🚀 Instrucciones de Instalación
+- Clonar el repositorio
+## Requisitos Previos:
+- Tener instalado Unreal Engine 5.5.4.
+- Tener instalado FMOD Studio 2.03.11
+- 
+
+
+(Opcional pero recomendado) Tener instalado FMOD Studio 2.03.11 si deseas inspeccionar el proyecto de audio original.
